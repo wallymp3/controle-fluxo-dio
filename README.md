@@ -1,19 +1,19 @@
-## Getting Started
+# DesafioControleFluxo
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este é um projeto Java que realiza a contagem de números com base em dois parâmetros passados via terminal. O programa valida se o primeiro parâmetro é menor que o segundo e, em caso contrário, lança uma exceção customizada.
 
-## Folder Structure
+## Funcionalidade
 
-The workspace contains two folders by default, where:
+O sistema recebe dois parâmetros inteiros via terminal e calcula a diferença entre o segundo parâmetro e o primeiro. Em seguida, imprime a sequência de números a partir de 1 até a quantidade de interações, que corresponde à diferença entre os dois parâmetros. 
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Como Usar
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+1. Clone ou faça o download deste repositório.
+2. Compile e execute o programa utilizando um terminal.
+3. O programa pedirá para você digitar dois números inteiros. O primeiro parâmetro será o número inicial e o segundo parâmetro será o número final.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Tecnologias Usadas
+Java: A linguagem principal usada para o desenvolvimento do programa.
+Scanner: Usado para ler os parâmetros via terminal.
+Exceções: Criamos uma exceção customizada para tratar parâmetros inválidos.
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
-# controle-fluxo-dio
